@@ -144,17 +144,16 @@ footer {
 @media (max-width: 480px) {
 
     body {
-        position: static;
+        position: relative;
         height: auto;
     }
 
     main {
         flex-direction: column;
-        top: auto;
-        left: auto;
-        transform: none;
-        margin: 1em auto;
-        width: 91%;
+        top: 1em;
+        left: 50%;
+        transform: translateX(-50%) translateY(0);
+        width: 87%;
     }
 
     h1 {
